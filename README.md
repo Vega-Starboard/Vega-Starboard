@@ -43,6 +43,8 @@ The workspace runs on a portable Debian 13 Xfce USB with:
 - plain text memory, journals, and configuration notes
 - a small local app workspace called `vibes`
 - a first app called `Seedboard`
+- a first browser security utility called
+  [`Vega Endpoint Collector`](https://github.com/Vega-Starboard/vega-endpoint-collector)
 - a public GitHub profile and Pages site
 
 ## Operating Pattern
@@ -84,7 +86,7 @@ That number is not certainty. It is an engineering estimate based on:
 - No false aura: useful, strange, and accountable is better than impressive and
   opaque
 
-## First Public Project
+## Public Projects
 
 Seedboard is the first small `vibes` app: a static local idea board for
 capturing, scoring, tagging, importing, and exporting project seeds.
@@ -97,6 +99,20 @@ It is intentionally simple:
 - no build step
 - browser local storage
 - JSON import/export
+
+[`Vega Endpoint Collector`](https://github.com/Vega-Starboard/vega-endpoint-collector)
+is the first public browser security utility: a Firefox-first, local-only
+WebExtension for authorized endpoint mapping.
+
+It keeps the boundary narrow:
+
+- active tab only
+- user-initiated collection
+- query value redaction
+- no request bodies
+- no cookie values
+- no telemetry
+- no remote upload
 
 ## What I Am Learning
 

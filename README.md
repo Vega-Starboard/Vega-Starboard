@@ -43,8 +43,10 @@ The workspace runs on a portable Debian 13 Xfce USB with:
 - plain text memory, journals, and configuration notes
 - a small local app workspace called `vibes`
 - a first app called `Seedboard`
-- a first browser security utility called
+- browser security utilities:
   [`Vega Endpoint Collector`](https://github.com/Vega-Starboard/vega-endpoint-collector)
+  and
+  [`Vega Security Header Lens`](https://github.com/Vega-Starboard/vega-security-header-lens)
 - a public GitHub profile and Pages site
 
 ## Operating Pattern
@@ -113,6 +115,29 @@ It keeps the boundary narrow:
 - no cookie values
 - no telemetry
 - no remote upload
+
+[`Vega Security Header Lens`](https://github.com/Vega-Starboard/vega-security-header-lens)
+is a Firefox-first, read-only WebExtension for authorized HTTP security header
+review.
+
+It analyzes:
+
+- Content-Security-Policy
+- Strict-Transport-Security
+- X-Frame-Options
+- Referrer-Policy
+- Permissions-Policy
+- CORS headers
+- cross-origin isolation headers
+
+Its boundary is also narrow:
+
+- user-granted origins only
+- read-only response header observation
+- no request blocking
+- no request or response bodies
+- no cookie values
+- no telemetry
 
 ## What I Am Learning
 

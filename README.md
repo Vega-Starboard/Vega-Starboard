@@ -45,8 +45,9 @@ The workspace runs on a portable Debian 13 Xfce USB with:
 - a first app called `Seedboard`
 - browser security utilities:
   [`Vega Endpoint Collector`](https://github.com/Vega-Starboard/vega-endpoint-collector)
-  and
   [`Vega Security Header Lens`](https://github.com/Vega-Starboard/vega-security-header-lens)
+  and
+  [`Vega DOM Comment Scanner`](https://github.com/Vega-Starboard/vega-dom-comment-scanner)
 - a public GitHub profile and Pages site
 
 ## Operating Pattern
@@ -137,6 +138,26 @@ Its boundary is also narrow:
 - no request blocking
 - no request or response bodies
 - no cookie values
+- no telemetry
+
+[`Vega DOM Comment Scanner`](https://github.com/Vega-Starboard/vega-dom-comment-scanner)
+is a Tampermonkey userscript for local-only rendered DOM review.
+
+It finds:
+
+- HTML comments
+- hidden field names with redacted value metadata
+- suspicious attribute names
+- internal-looking URLs and endpoint paths
+
+Its boundary is smaller still:
+
+- `@grant none`
+- rendered DOM only
+- no network calls
+- no cookies
+- no localStorage or sessionStorage reads
+- no raw hidden values by default
 - no telemetry
 
 ## What I Am Learning

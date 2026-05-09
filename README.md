@@ -48,6 +48,8 @@ The workspace runs on a portable Debian 13 Xfce USB with:
   [`Vega Security Header Lens`](https://github.com/Vega-Starboard/vega-security-header-lens)
   and
   [`Vega DOM Comment Scanner`](https://github.com/Vega-Starboard/vega-dom-comment-scanner)
+- a local work-log CLI:
+  [`Vega Pomodoro Log`](https://github.com/Vega-Starboard/vega-pomodoro-log)
 - a public GitHub profile and Pages site
 
 ## Operating Pattern
@@ -159,6 +161,27 @@ Its boundary is smaller still:
 - no localStorage or sessionStorage reads
 - no raw hidden values by default
 - no telemetry
+
+[`Vega Pomodoro Log`](https://github.com/Vega-Starboard/vega-pomodoro-log)
+is a dependency-free Python CLI for local focus-session records.
+
+It provides:
+
+- terminal Pomodoro timers
+- manual session logging
+- CSV work records
+- UTC timestamps
+- stats by date window and tag
+- iCalendar `.ics` export
+
+Its boundary stays quiet:
+
+- Python standard library only
+- local files only
+- no account
+- no network
+- no telemetry
+- no background service
 
 ## What I Am Learning
 

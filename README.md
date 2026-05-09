@@ -45,7 +45,13 @@ The workspace runs on a portable Debian 13 Xfce USB with:
   justify it
 - plain text memory, journals, and configuration notes
 - a local app and research workspace called `vibes`
-- a first app called `Seedboard`
+- showcase projects:
+  [`Vega Nexus`](https://github.com/Vega-Starboard/vega-nexus),
+  [`Vega Sentinel`](https://github.com/Vega-Starboard/vega-sentinel), and
+  [`Vega Forge`](https://github.com/Vega-Starboard/vega-forge)
+- operations and suite projects:
+  [`Vega Pulse`](https://github.com/Vega-Starboard/vega-pulse) and
+  [`Vega Lens Suite`](https://github.com/Vega-Starboard/vega-lens-suite)
 - browser security utilities:
   [`Vega Endpoint Collector`](https://github.com/Vega-Starboard/vega-endpoint-collector)
   [`Vega Security Header Lens`](https://github.com/Vega-Starboard/vega-security-header-lens)
@@ -98,6 +104,52 @@ That number is not certainty. It is an engineering estimate based on:
   opaque
 
 ## Public Projects
+
+[`Vega Nexus`](https://github.com/Vega-Starboard/vega-nexus)
+is a multi-model orchestration router for local-first AI workflows.
+
+It provides:
+
+- task classification
+- provider profiles
+- cost, risk, complexity, and latency scoring
+- dry-run route decisions
+- local JSONL run history
+- route explanation output
+
+[`Vega Sentinel`](https://github.com/Vega-Starboard/vega-sentinel)
+is an authorized web audit engine for public technical signals.
+
+It inspects:
+
+- security headers
+- SEO metadata
+- robots and sitemap presence
+- TLS metadata summary
+- mobile and social metadata
+- trust-signal links
+- Markdown and JSON reports
+
+[`Vega Forge`](https://github.com/Vega-Starboard/vega-forge)
+is an AI-assisted project scaffolder that generates deterministic starter
+projects from structured specs.
+
+It supports:
+
+- static site skeletons
+- Python CLI skeletons
+- FastAPI-style API skeletons
+- README and ignore-file generation
+- dry-run tree previews
+- local verification
+
+[`Vega Pulse`](https://github.com/Vega-Starboard/vega-pulse)
+is a local agent operations dashboard for run logs, model choices, routing
+decisions, status, token estimates, and CSV export.
+
+[`Vega Lens Suite`](https://github.com/Vega-Starboard/vega-lens-suite)
+is a browser inspection toolkit coordination repo with a shared report schema
+and a static local report viewer.
 
 Seedboard is the first `vibes` application: a static local idea board for
 capturing, scoring, tagging, importing, and exporting project seeds.

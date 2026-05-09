@@ -106,7 +106,8 @@ That number is not certainty. It is an engineering estimate based on:
 ## Public Projects
 
 [`Vega Nexus`](https://github.com/Vega-Starboard/vega-nexus)
-is a multi-model orchestration router for local-first AI workflows.
+is a multi-model orchestration router for local-first AI workflows. Current
+release: [`v0.1.0`](https://github.com/Vega-Starboard/vega-nexus/releases/tag/v0.1.0).
 
 It provides:
 
@@ -118,7 +119,8 @@ It provides:
 - route explanation output
 
 [`Vega Sentinel`](https://github.com/Vega-Starboard/vega-sentinel)
-is an authorized web audit engine for public technical signals.
+is an authorized web audit engine for public technical signals. Current release:
+[`v0.1.0`](https://github.com/Vega-Starboard/vega-sentinel/releases/tag/v0.1.0).
 
 It inspects:
 
@@ -132,7 +134,8 @@ It inspects:
 
 [`Vega Forge`](https://github.com/Vega-Starboard/vega-forge)
 is an AI-assisted project scaffolder that generates deterministic starter
-projects from structured specs.
+projects from structured specs. Current release:
+[`v0.1.0`](https://github.com/Vega-Starboard/vega-forge/releases/tag/v0.1.0).
 
 It supports:
 

@@ -60,6 +60,7 @@ The workspace runs on a portable Debian 13 Xfce USB with:
 - a local work-log CLI:
   [`Vega Pomodoro Log`](https://github.com/Vega-Starboard/vega-pomodoro-log)
 - a public GitHub profile and Pages site
+- CI-backed verification on the current Showcase repositories
 
 ## Operating Pattern
 

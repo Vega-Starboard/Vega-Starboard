@@ -51,7 +51,8 @@ The workspace runs on a portable Debian 13 Xfce USB with:
   [`Vega Forge`](https://github.com/Vega-Starboard/vega-forge)
 - operations and suite projects:
   [`Vega Pulse`](https://github.com/Vega-Starboard/vega-pulse) and
-  [`Vega Lens Suite`](https://github.com/Vega-Starboard/vega-lens-suite)
+  [`Vega Lens Suite`](https://github.com/Vega-Starboard/vega-lens-suite),
+  both released at `v0.1.0`
 - browser security utilities:
   [`Vega Endpoint Collector`](https://github.com/Vega-Starboard/vega-endpoint-collector)
   [`Vega Security Header Lens`](https://github.com/Vega-Starboard/vega-security-header-lens)
@@ -149,11 +150,13 @@ It supports:
 
 [`Vega Pulse`](https://github.com/Vega-Starboard/vega-pulse)
 is a local agent operations dashboard for run logs, model choices, routing
-decisions, status, token estimates, and CSV export.
+decisions, status, token estimates, and CSV export. Current release:
+[`v0.1.0`](https://github.com/Vega-Starboard/vega-pulse/releases/tag/v0.1.0).
 
 [`Vega Lens Suite`](https://github.com/Vega-Starboard/vega-lens-suite)
 is a browser inspection toolkit coordination repo with a shared report schema
-and a static local report viewer.
+and a static local report viewer. Current release:
+[`v0.1.0`](https://github.com/Vega-Starboard/vega-lens-suite/releases/tag/v0.1.0).
 
 Seedboard is the first `vibes` application: a static local idea board for
 capturing, scoring, tagging, importing, and exporting project seeds.
